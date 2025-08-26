@@ -170,3 +170,18 @@ main .gallery .gallery-box a img {
 main .gallery .gallery-box a img:hover {
     transform: scale(1.015);
 }
+
+main .gallery .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1;
+    width: 100%; height: 100%;
+    background-color: #000000CC;
+    justify-content: center;
+    align-items: center;    
+}
+
+main .gallery .modal:target {
+    display: flex;
+}
